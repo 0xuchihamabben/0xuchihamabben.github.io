@@ -29,4 +29,4 @@ I completed my final-year research project at the École Nationale Supérieure d
 
 ## Contact
 
-The best current contact point is [GitHub](https://github.com/AnissBenstaali). For sensitive reports concerning one of my repositories, follow the process on the [Responsible Disclosure]({% link _tabs/disclosure.md %}) page.
+The best current contact point is [GitHub](https://github.com/0xuchihamabben). For sensitive reports concerning one of my repositories, follow the process on the [Responsible Disclosure]({% link _tabs/disclosure.md %}) page.

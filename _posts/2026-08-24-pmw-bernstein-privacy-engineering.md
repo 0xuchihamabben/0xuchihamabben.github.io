@@ -15,7 +15,7 @@ Privacy engineering becomes difficult when analysis is interactive. A researcher
 
 My final-year project studies this problem through **Private Multiplicative Weights (PMW)**. The project asks whether a step size adapted to the current query error and hypothesis variance can improve the progress made on difficult rounds.
 
-The complete paper and source artifact are available in the [PMW–Bernstein repository](https://github.com/AnissBenstaali/pmw-bernstein).
+The complete paper and source artifact are available in the [PMW–Bernstein repository](https://github.com/0xuchihamabben/pmw-bernstein).
 
 ## The interactive setting
 
@@ -149,6 +149,6 @@ The repository contains:
 - the noise calibration and non-exhaustion conditions;
 - a concise project README for readers entering from GitHub.
 
-[Open the PMW–Bernstein project](https://github.com/AnissBenstaali/pmw-bernstein){: .btn .btn-outline-primary }
+[Open the PMW–Bernstein project](https://github.com/0xuchihamabben/pmw-bernstein){: .btn .btn-outline-primary }
 
 The broader lesson extends beyond this mechanism: a privacy claim becomes more credible when the algorithm, accounting, stopping rule, accuracy event, and published artifact agree on the exact system being analyzed.

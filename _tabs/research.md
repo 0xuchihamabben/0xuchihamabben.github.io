@@ -12,8 +12,8 @@ This page collects original work, longer technical investigations, and the artif
 
 The project separates privacy accounting from the potential analysis, proves a variance-sensitive one-step progress bound, and identifies a local Bernstein regime in which the update count improves from the usual quadratic dependence on the accuracy parameter to a linear one.
 
-- [Research repository](https://github.com/AnissBenstaali/pmw-bernstein)
-- [Read the paper](https://github.com/AnissBenstaali/pmw-bernstein/blob/main/paper/pmw-bernstein-theoretical-refinement.pdf)
+- [Research repository](https://github.com/0xuchihamabben/pmw-bernstein)
+- [Read the paper](https://github.com/0xuchihamabben/pmw-bernstein/blob/main/paper/pmw-bernstein-theoretical-refinement.pdf)
 - [Technical overview]({% post_url 2026-08-24-pmw-bernstein-privacy-engineering %})
 
 ## What belongs here

@@ -24,10 +24,10 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://anissbenstaali.github.io"
+url: "https://0xuchihamabben.github.io"
 
 github:
-  username: AnissBenstaali # change to your GitHub username
+  username: 0xuchihamabben # change to your GitHub username
 
 twitter:
   username: # change to your Twitter username
@@ -40,7 +40,7 @@ social:
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/AnissBenstaali
+    - https://github.com/0xuchihamabben
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -111,8 +111,8 @@ toc: true
 actions:
   # Display "Edit this post" action on each post page to encourage contributions.
   edit_post:
-    enabled: true # set to true to display the "Edit this post" action.
-    url: "https://github.com/AnissBenstaali/uchiha_mabben.github.io/edit/main" # repository base URL
+    enabled: false # the source repository is private
+    url: "https://github.com/0xuchihamabben/0xuchihamabben.github.io/edit/main" # repository base URL
     # Use dynamic or static URL for the edit link.
     # If `static_url` is false, the post's path will be appended to the `url` above as the final edit link.
     # Set to true if the URL should remain unchanged, which means each post will share the same edit link.
@@ -161,7 +161,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "/uchiha_mabben.github.io"
+baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
