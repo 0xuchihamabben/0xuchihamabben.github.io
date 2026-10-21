@@ -14,7 +14,6 @@ The project separates privacy accounting from the potential analysis, proves a v
 
 - [Research repository](https://github.com/0xuchihamabben/pmw-bernstein)
 - [Read the paper](https://github.com/0xuchihamabben/pmw-bernstein/blob/main/paper/pmw-bernstein-theoretical-refinement.pdf)
-- [Technical overview]({% post_url 2026-08-24-pmw-bernstein-privacy-engineering %})
 
 ## What belongs here
 
