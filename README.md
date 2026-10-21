@@ -9,7 +9,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-The project is configured as a GitHub Pages project site. Local posts live in `_posts`, navigation pages in `_tabs`, and media in `assets/img`.
+The project is configured as a GitHub Pages user site at https://0xuchihamabben.github.io/. Local posts live in `_posts`, navigation pages in `_tabs`, and media in `assets/img`.
 
 ## Publishing
 

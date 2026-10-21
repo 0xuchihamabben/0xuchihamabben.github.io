@@ -111,7 +111,7 @@ toc: true
 actions:
   # Display "Edit this post" action on each post page to encourage contributions.
   edit_post:
-    enabled: false # the source repository is private
+    enabled: false # keep post editing links hidden
     url: "https://github.com/0xuchihamabben/0xuchihamabben.github.io/edit/main" # repository base URL
     # Use dynamic or static URL for the edit link.
     # If `static_url` is false, the post's path will be appended to the `url` above as the final edit link.

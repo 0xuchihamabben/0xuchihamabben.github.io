@@ -12,6 +12,6 @@ A research artifact and paper on variance-adaptive Private Multiplicative Weight
 
 ## This research blog
 
-The source for this Jekyll Chirpy site is maintained in a private repository. Posts are maintained as Markdown, built by GitHub Actions, and checked before deployment.
+The source for this Jekyll Chirpy site is maintained in a public repository. Posts are maintained as Markdown, built by GitHub Actions, and checked before deployment.
 
 Additional security tools and reproducible lab artifacts will be added when their documentation, threat model, and limitations are ready for public use.
