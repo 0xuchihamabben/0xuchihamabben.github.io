@@ -1,81 +1,66 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
 order: 3
 ---
 
 # Mohamed Aniss Benstaali
 
-*aka **Uchiha Mabben** · Cybersecurity · Quantitative Finance · HFT · Systems Engineering*
+_aka **Uchiha Mabben** · Cybersecurity · Low-Level Systems · Applied Math_
 
-I'm Aniss Benstaali, known online as **Uchiha Mabben**.
+Hey! I'm Aniss, online mostly as **Uchiha Mabben**.
 
-My primary focus is **cybersecurity**, with a strong interest in **quantitative finance, high-frequency trading (HFT), and performance-critical systems**.
+I spend most of my time down in the weeds where cybersecurity, low-level systems engineering, and mathematics intersect. I’m fascinated by what happens beneath high-level abstractions—how web applications handle security, how operating systems enforce boundaries, and how mathematical rigor keeps systems secure and private.
 
-I'm fascinated by what happens when security, mathematics, and low-level engineering intersect—particularly in environments where microseconds matter, decisions are automated, and small implementation details can have significant consequences.
+This blog is my personal technical notebook: a place to document experiments, dissect application mechanics, test hypotheses, and share what I learn along the way.
 
-This blog is my public research notebook: a place to document experiments, explore complex technical problems, challenge assumptions, and turn ideas into reproducible results.
+---
 
-## Areas of Interest
+## Technical Focus
 
-### Cybersecurity & Offensive Security
+### Cybersecurity & Web Exploitation
 
-Cybersecurity is at the center of my technical interests. I explore how systems can be broken, how vulnerabilities emerge from design and implementation decisions, and how those weaknesses can be detected and mitigated.
+Security comes down to understanding how systems _actually_ work, not just how they were intended to work. I focus on finding where design assumptions break down and how vulnerabilities emerge in web applications and network services.
 
-Topics include:
+- **Web Exploitation & AppSec:** Uncovering application vulnerabilities, dissecting complex business logic flaws, breaking authentication mechanisms, and probing modern web architectures.
+- **Linux & OS Internals:** Exploring kernel boundaries, system calls, memory layouts, and low-level attack surfaces.
+- **Offensive & Defensive Mechanics:** Studying exploitation techniques to design and build more resilient infrastructure.
 
-- Application, network, and systems security
-- Vulnerability research and exploitation techniques
-- Reverse engineering and binary analysis
-- Linux internals, operating systems, and attack surfaces
-- Defensive engineering, detection, and threat modeling
-- Security of financial and low-latency infrastructure
+### Low-Level Engineering & Performance
 
-My approach is to understand both the attacker's perspective and the engineering decisions required to build resilient systems.
+Higher-level languages and frameworks are great, but hardware doesn't run on abstractions. I love getting close to the metal to figure out how software interacts with the CPU and memory.
 
-### Quantitative Finance & High-Frequency Trading
+- **Systems Programming:** Writing clean, efficient, and deterministic code where system resources matter.
+- **Performance & Execution:** Debugging latency, cache behavior, concurrency issues, and system call overhead.
+- **Internals over Frameworks:** Understanding memory allocators, execution contexts, and operating system primitives from scratch.
 
-I'm particularly interested in the engineering and mathematical foundations behind algorithmic and high-frequency trading.
+### Applied Mathematics & Differential Privacy
 
-My exploration includes:
+Math is the bedrock of real security guarantees. My research at the **École Nationale Supérieure d'Informatique (ESI)** focused on privacy-preserving algorithms—specifically a variance-adaptive refinement of **Private Multiplicative Weights** for repeated queries over sensitive datasets.
 
-- Market microstructure and limit order books
-- Quantitative research and statistical modeling
-- Algorithmic trading and execution strategies
-- Low-latency architecture and performance optimization
-- Backtesting, simulation, and risk management
-- Reliability and security of automated trading infrastructure
+That background heavily shapes how I approach technical problems:
 
-Beyond trading strategies themselves, I'm interested in the systems that make them possible: efficient data processing, concurrency, network performance, deterministic behavior, and the trade-offs between speed, correctness, and security.
+- **Differential Privacy & Statistics:** Designing algorithms that yield useful results while mathematically guaranteeing data privacy.
+- **Formal & Empirical Rigor:** Formulating explicit hypotheses, writing test setups, collecting measurements, and letting data prove what's true.
 
-### Privacy, Mathematics & Research
+---
 
-I completed my final-year research project at the **École Nationale Supérieure d'Informatique (ESI)**, investigating a variance-adaptive refinement of **Private Multiplicative Weights** for repeated queries over sensitive data.
+## Mindset & Approach
 
-That work strengthened my interest in mathematical reasoning, privacy-preserving algorithms, statistical analysis, and experimental validation.
+- **Look under the hood.** Abstractions hide complexity, but when things break or performance matters, understanding the underlying layers is what counts.
+- **Measure, don't guess.** Intuition is fine for forming a hypothesis, but only benchmarks, mathematical proofs, and logs give real answers.
+- **Security requires deep understanding.** You can't secure what you don't fully understand at the architectural and implementation level.
+- **Learn by breaking.** The fastest way to understand a system is to push it past its limits, break it, and reconstruct it.
 
-These ideas also influence how I approach quantitative research and security: formulate a hypothesis, construct an experiment, measure what happens, and question the conclusions.
-
-## How I Approach Engineering
-
-**Understand the internals.** Abstractions are useful, but understanding what happens underneath them is often where the most interesting problems begin.
-
-**Evidence over assumptions.** Whether investigating a vulnerability or evaluating a quantitative model, claims should be supported by measurements, derivations, or reproducible experiments.
-
-**Performance without sacrificing correctness.** Fast systems are interesting. Fast, reliable, and secure systems are even more interesting.
-
-**Think adversarially.** Challenge assumptions, look for unexpected behavior, and consider how systems react under hostile or extreme conditions.
-
-**Build, break, measure, repeat.** Theory matters, but experimentation reveals the details that theory can miss.
+---
 
 ## What You'll Find Here
 
-This blog is a collection of research notes, technical deep dives, experiments, and things I learn along the way.
+This site is an open engineering journal. You'll find deep dives into web exploitation, Linux kernel notes, mathematical write-ups, experiments in low-level programming, and thoughts on differential privacy.
 
-Expect content around **security research, system internals, quantitative trading concepts, low-latency engineering, privacy, and applied mathematics**.
+Some posts are polished research breakdowns; others are raw exploratory notes, post-mortems of failed code, or quick benchmarks.
 
-Some posts will be polished investigations. Others will be exploratory notes, benchmarks, failed experiments, or questions worth digging into.
+---
 
-## Contact
+## Connect
 
-You can find my projects and reach me through [GitHub](https://github.com/0xuchihamabben).
+Feel free to explore my open-source projects and experiments on [GitHub](https://github.com/0xuchihamabben).
