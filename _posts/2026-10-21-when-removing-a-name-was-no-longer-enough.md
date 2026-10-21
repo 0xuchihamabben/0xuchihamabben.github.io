@@ -35,8 +35,7 @@ The table looks anonymous. But an outside directory might contain names alongsid
 
 Latanya Sweeney demonstrated the problem using Massachusetts health-insurance data and a Cambridge voter-registration list. In her account, the combination of birth date, sex, and ZIP code singled out then-governor William Weld and linked him to his medical information. The medical release did not need a name column for that association to become possible.[^sweeney]
 
-![An invented medical record and public directory share a birth date, postal code, and sex; if the combination is unique, a name can be linked to a diagnosis.](/assets/img/posts/differential-privacy-introduction/record-linkage.png)
-_Figure 1. All values are invented. Linkage depends on the available information and how distinctive the shared attributes are._
+![A medical record and public directory share a birth date, postal code, and sex; if the combination is unique, a name can be linked to a diagnosis.](/assets/img/posts/differential-privacy-introduction/record-linkage.png)
 
 Removing direct identifiers is still useful. The mistake is treating their absence as proof that nobody can be identified. The risk depends on what remains and what an observer can combine it with.
 
@@ -52,7 +51,7 @@ Statistical disclosure control has a long history, including techniques such as 
 
 Work by Pierangela Samarati and Latanya Sweeney in the late 1990s, followed by Sweeney's 2002 paper, gave an influential formal condition: **k-anonymity**. For selected quasi-identifiers, each released record must share its values with at least $$k-1$$ other records.[^sweeney]
 
-For example, consider this invented release:
+For example, consider this release:
 
 | Age band | Region | Diagnosis |
 |---|---|---|

@@ -1,7 +1,7 @@
 """Reproduce the introductory DP post's two original explanatory figures.
 
-Requires matplotlib and numpy. All record values are fictional. The second
-figure plots exact Laplace densities, rather than samples or empirical results.
+Requires matplotlib and numpy. The second figure plots exact Laplace densities,
+rather than samples or empirical results.
 Run from any directory: python tools/generate-dp-figures.py
 """
 
@@ -59,7 +59,7 @@ def record_linkage():
         ("Sex", "F"),
         ("Diagnosis", "Condition X"),
     ]
-    right_rows = left_rows[:3] + [("Name", "Alex (fictional)")]
+    right_rows = left_rows[:3] + [("Name", "Alex")]
 
     for x, title, subtitle, rows in (
         (0.05, "Medical release", "Direct identifiers removed", left_rows),
@@ -103,10 +103,6 @@ def record_linkage():
     ax.text(
         0.5, 0.139, "a name can be linked to a diagnosis.",
         ha="center", fontsize=20, weight="bold",
-    )
-    ax.text(
-        0.5, 0.045, "Invented example. No real patient data.",
-        ha="center", fontsize=12, color=MUTED,
     )
     fig.savefig(DESTINATION / "record-linkage.png", dpi=160)
     plt.close(fig)
