@@ -18,7 +18,7 @@ image:
 
 Imagine a hospital's statistical model puts the prevalence of a complication at 1%. In the database, it's 7%. For a second question, the model predicts 50% and the database says 56%. Both errors are six percentage points. Should the model make the same correction twice?
 
-In [the previous post]({% post_url 2026-10-21-when-removing-a-name-was-no-longer-enough %}), I looked at what happens when a service keeps the records private but answers many questions about them. That led me to Private Multiplicative Weights (PMW) and to a question I worked on with Habib Louafi and Naima Bessah. **When a private measurement tells us the public model is wrong, how far should we move it?**
+In [the previous post]({% post_url 2026-10-21-when-removing-a-name-was-no-longer-enough %}), I looked at what happens when a service keeps the records private but answers many questions about them. That led me to Private Multiplicative Weights (PMW) and to the question behind this research. **When a private measurement tells us the public model is wrong, how far should we move it?**
 
 ## A public model and a private check
 
@@ -114,5 +114,5 @@ What brought me back to the hospital example was the difference between knowing 
 
 [^hardt]: Moritz Hardt and Guy Rothblum (2010), [*A Multiplicative Weights Mechanism for Privacy-Preserving Data Analysis*](https://www.microsoft.com/en-us/research/publication/a-multiplicative-weights-mechanism-for-privacy-preserving-data-analysis/).
 [^dworkroth]: Cynthia Dwork and Aaron Roth (2014), [*The Algorithmic Foundations of Differential Privacy*](https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf), especially Sections 3.5, 3.6 and 4.2 and Appendix A.
-[^simulator]: Mohamed Aniss Benstaali, Habib Louafi and Naima Bessah, *A Bernstein-Type Variance-Adaptive PMW Mechanism for DP Query Release*, Sections VII–XII. See the [uchiDP comparison script](https://github.com/0xuchihamabben/uchiDP/blob/20bd14ddaefb20ed0d22650f631f0dabad50c4cd/uchidp/research/pmw_compare.py) and the [earlier theoretical report](https://github.com/0xuchihamabben/pmw-bernstein).
+[^simulator]: *A Bernstein-Type Variance-Adaptive PMW Mechanism for DP Query Release*, Sections VII–XII. See the [uchiDP comparison script](https://github.com/0xuchihamabben/uchiDP/blob/20bd14ddaefb20ed0d22650f631f0dabad50c4cd/uchidp/research/pmw_compare.py) and the [earlier theoretical report](https://github.com/0xuchihamabben/pmw-bernstein).
 [^rerun]: A rerun using NumPy 2.4.3 reproduced the other five counts in the figure and all the success rates. For the adaptive rule in the noisy high-variance workload it gave 2.57 mean updates and 0.0148 mean final maximum error, compared with 2.60 and 0.0157 in Table IV.
